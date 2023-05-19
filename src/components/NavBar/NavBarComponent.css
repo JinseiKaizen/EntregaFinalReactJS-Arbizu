@@ -1,0 +1,42 @@
+.navbar {
+  background-color: #6aa0da; /*Cambiar el color de fondo a azul*/
+  padding: 1rem;
+}
+
+.navbar-brand img {
+  height: 3rem; /*Tamaño de la imagen del logo*/
+  width: 3rem;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.navbar-nav {
+  margin-left: auto; /*Centrar la lista de opciones del Navbar*/
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    display: none; /*Ocultar la lista de opciones en dispositivos móviles*/
+  }
+
+  .nav-link {
+    margin-right: 0; /*Eliminar el margen derecho de las opciones*/
+  }
+
+  .navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+}
